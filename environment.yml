@@ -1,0 +1,19 @@
+name: ml_model_to_cloud_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - scikit-learn
+  - pandas-profiling=3.6.3
+  - ipywidgets=8.0.6 
+  - pyarrow=10.0.1
+  - seaborn=0.12.2
+  - pytest
+  - jupyterlab
+  - fastapi
+  - uvicorn
+  - git
+  - xgboost=1.7.4
+  - bayesian-optimization=1.4.3
+  - shap=0.41.0
+  
