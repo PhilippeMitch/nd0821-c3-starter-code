@@ -17,7 +17,7 @@ from sklearn.metrics import precision_recall_fscore_support as score
 sns.set()
 
 # Initialize logging
-logging.basicConfig(filename='../logs/train_model.log',
+logging.basicConfig(filename='../starter/logs/train_model.log',
                     level=logging.INFO,
                     filemode='w',
                     format='%(name)s - %(levelname)s - %(message)s')
